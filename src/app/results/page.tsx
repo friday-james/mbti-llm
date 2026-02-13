@@ -2,6 +2,7 @@
 
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { Suspense } from "react";
 import { ModelResult, EvaluationResponse } from "@/lib/types";
 
@@ -29,9 +30,17 @@ const dimLabels: Record<string, [string, string]> = {
 function ModelCard({ result }: { result: ModelResult }) {
   const typeName = typeNames[result.type] || "";
   const letters = result.type.split("");
+  const avatarSrc = `/avatars/${result.type.toLowerCase()}.svg`;
 
   return (
-    <div className="flex flex-col rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-shadow hover:shadow-md">
+    <div className="flex flex-col items-center rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-shadow hover:shadow-md">
+      <Image
+        src={avatarSrc}
+        alt={`${result.type} - ${typeName}`}
+        width={80}
+        height={80}
+        className="mb-2"
+      />
       <div className="mb-1 truncate text-xs font-medium text-gray-400">
         {result.modelLabel}
       </div>
@@ -97,6 +106,13 @@ function TypeDistribution({ results }: { results: ModelResult[] }) {
       <div className="flex flex-col gap-2">
         {sorted.map(([type, count]) => (
           <div key={type} className="flex items-center gap-3">
+            <Image
+              src={`/avatars/${type.toLowerCase()}.svg`}
+              alt={type}
+              width={32}
+              height={32}
+              className="shrink-0"
+            />
             <div className="flex w-16 gap-0.5">
               {type.split("").map((l, i) => (
                 <span
@@ -146,9 +162,17 @@ function ComparisonTable({ results }: { results: ModelResult[] }) {
             <tr key={r.model} className="border-b last:border-0 hover:bg-gray-50">
               <td className="px-3 py-2 font-medium text-gray-800">{r.modelLabel}</td>
               <td className="px-3 py-2">
-                <span className="rounded bg-gray-100 px-1.5 py-0.5 font-mono font-bold text-gray-700">
-                  {r.type}
-                </span>
+                <div className="flex items-center gap-1.5">
+                  <Image
+                    src={`/avatars/${r.type.toLowerCase()}.svg`}
+                    alt={r.type}
+                    width={24}
+                    height={24}
+                  />
+                  <span className="rounded bg-gray-100 px-1.5 py-0.5 font-mono font-bold text-gray-700">
+                    {r.type}
+                  </span>
+                </div>
               </td>
               {(["EI", "SN", "TF", "JP"] as const).map((dim) => (
                 <td key={dim} className="px-3 py-2 text-center">

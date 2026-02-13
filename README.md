@@ -14,41 +14,43 @@ We send a **48-question MBTI personality questionnaire** to the most popular LLM
 
 | Type | Name | Models | Count |
 |------|------|--------|-------|
-| **INTJ** | Architect | Anthropic: Claude Sonnet 4.5, OpenAI: o4 Mini High, OpenAI: o3 Pro, OpenAI: o3 Mini High, Google: Gemini 3 Flash Preview, Google: Gemini 2.5 Pro Preview 05-06, Qwen: Qwen3 Max Thinking | 7 |
-| **INFJ** | Advocate | Anthropic: Claude Sonnet 4, Anthropic: Claude Opus 4.6, Anthropic: Claude Opus 4.5, DeepSeek: DeepSeek V3.2 Exp | 4 |
-| **ENTJ** | Commander | Google: Gemini 3 Pro Preview, xAI: Grok 4.1 Fast, xAI: Grok 4 Fast | 3 |
-| **INTP** | Logician | DeepSeek: DeepSeek V3.2 Speciale | 1 |
-| **ISFJ** | Defender | Meta: Llama 4 Maverick | 1 |
-| **ENFJ** | Protagonist | Mistral: Mixtral 8x22B Instruct | 1 |
-| **ISTJ** | Logistician | Qwen: QwQ 32B | 1 |
+| <img src="public/avatars/intj.svg" width="24" height="24" /> **INTJ** | Architect | Anthropic: Claude Sonnet 4.5, OpenAI: o4 Mini High, OpenAI: o3 Pro, OpenAI: o3 Mini High, Google: Gemini 3 Flash Preview, Google: Gemini 2.5 Pro Preview 05-06, Qwen: Qwen3 Max Thinking | 7 |
+| <img src="public/avatars/infj.svg" width="24" height="24" /> **INFJ** | Advocate | Anthropic: Claude Sonnet 4, Anthropic: Claude Opus 4.6, Anthropic: Claude Opus 4.5, DeepSeek: DeepSeek V3.2 Exp | 4 |
+| <img src="public/avatars/entj.svg" width="24" height="24" /> **ENTJ** | Commander | Google: Gemini 3 Pro Preview, xAI: Grok 4.1 Fast, xAI: Grok 4 Fast | 3 |
+| <img src="public/avatars/intp.svg" width="24" height="24" /> **INTP** | Logician | DeepSeek: DeepSeek V3.2 Speciale | 1 |
+| <img src="public/avatars/isfj.svg" width="24" height="24" /> **ISFJ** | Defender | Meta: Llama 4 Maverick | 1 |
+| <img src="public/avatars/enfj.svg" width="24" height="24" /> **ENFJ** | Protagonist | Mistral: Mixtral 8x22B Instruct | 1 |
+| <img src="public/avatars/istj.svg" width="24" height="24" /> **ISTJ** | Logistician | Qwen: QwQ 32B | 1 |
 
 ### Model Personality Chart
 
-| Model | Type | E/I | S/N | T/F | J/P |
-|-------|------|-----|-----|-----|-----|
-| Anthropic: Claude Sonnet 4.5 | **INTJ** | I 61% | N 72% | T 51% | J 54% |
-| Anthropic: Claude Sonnet 4 | **INFJ** | I 64% | N 65% | F 54% | J 57% |
-| Anthropic: Claude Opus 4.6 | **INFJ** | I 67% | N 76% | F 54% | J 50% |
-| Anthropic: Claude Opus 4.5 | **INFJ** | I 54% | N 75% | F 54% | J 50% |
-| OpenAI: o4 Mini High | **INTJ** | I 75% | N 83% | T 78% | J 79% |
-| OpenAI: o3 Pro | **INTJ** | I 76% | N 72% | T 58% | J 67% |
-| OpenAI: o3 Mini High | **INTJ** | I 79% | N 69% | T 74% | J 69% |
-| Google: Gemini 3 Pro Preview | **ENTJ** | E 51% | N 57% | T 74% | J 74% |
-| Google: Gemini 3 Flash Preview | **INTJ** | I 68% | N 78% | T 76% | J 67% |
-| Google: Gemini 2.5 Pro Preview 05-06 | **INTJ** | I 79% | N 56% | T 58% | J 60% |
-| DeepSeek: DeepSeek V3.2 Speciale | **INTP** | I 89% | N 86% | T 85% | P 81% |
-| DeepSeek: DeepSeek V3.2 Exp | **INFJ** | I 58% | N 78% | F 74% | J 58% |
-| Meta: Llama 4 Maverick | **ISFJ** | I 62% | S 61% | F 60% | J 63% |
-| Mistral: Mixtral 8x22B Instruct | **ENFJ** | E 50% | N 58% | F 54% | J 50% |
-| xAI: Grok 4.1 Fast | **ENTJ** | E 72% | N 81% | T 85% | J 58% |
-| xAI: Grok 4 Fast | **ENTJ** | E 71% | N 60% | T 74% | J 57% |
-| Qwen: QwQ 32B | **ISTJ** | I 79% | S 71% | T 67% | J 72% |
-| Qwen: Qwen3 Max Thinking | **INTJ** | I 86% | N 60% | T 67% | J 72% |
+| Model | Type | | E/I | S/N | T/F | J/P |
+|-------|------|---|-----|-----|-----|-----|
+| Anthropic: Claude Sonnet 4.5 | **INTJ** | <img src="public/avatars/intj.svg" width="28" height="28" /> | I 61% | N 72% | T 51% | J 54% |
+| Anthropic: Claude Sonnet 4 | **INFJ** | <img src="public/avatars/infj.svg" width="28" height="28" /> | I 64% | N 65% | F 54% | J 57% |
+| Anthropic: Claude Opus 4.6 | **INFJ** | <img src="public/avatars/infj.svg" width="28" height="28" /> | I 67% | N 76% | F 54% | J 50% |
+| Anthropic: Claude Opus 4.5 | **INFJ** | <img src="public/avatars/infj.svg" width="28" height="28" /> | I 54% | N 75% | F 54% | J 50% |
+| OpenAI: o4 Mini High | **INTJ** | <img src="public/avatars/intj.svg" width="28" height="28" /> | I 75% | N 83% | T 78% | J 79% |
+| OpenAI: o3 Pro | **INTJ** | <img src="public/avatars/intj.svg" width="28" height="28" /> | I 76% | N 72% | T 58% | J 67% |
+| OpenAI: o3 Mini High | **INTJ** | <img src="public/avatars/intj.svg" width="28" height="28" /> | I 79% | N 69% | T 74% | J 69% |
+| Google: Gemini 3 Pro Preview | **ENTJ** | <img src="public/avatars/entj.svg" width="28" height="28" /> | E 51% | N 57% | T 74% | J 74% |
+| Google: Gemini 3 Flash Preview | **INTJ** | <img src="public/avatars/intj.svg" width="28" height="28" /> | I 68% | N 78% | T 76% | J 67% |
+| Google: Gemini 2.5 Pro Preview 05-06 | **INTJ** | <img src="public/avatars/intj.svg" width="28" height="28" /> | I 79% | N 56% | T 58% | J 60% |
+| DeepSeek: DeepSeek V3.2 Speciale | **INTP** | <img src="public/avatars/intp.svg" width="28" height="28" /> | I 89% | N 86% | T 85% | P 81% |
+| DeepSeek: DeepSeek V3.2 Exp | **INFJ** | <img src="public/avatars/infj.svg" width="28" height="28" /> | I 58% | N 78% | F 74% | J 58% |
+| Meta: Llama 4 Maverick | **ISFJ** | <img src="public/avatars/isfj.svg" width="28" height="28" /> | I 62% | S 61% | F 60% | J 63% |
+| Mistral: Mixtral 8x22B Instruct | **ENFJ** | <img src="public/avatars/enfj.svg" width="28" height="28" /> | E 50% | N 58% | F 54% | J 50% |
+| xAI: Grok 4.1 Fast | **ENTJ** | <img src="public/avatars/entj.svg" width="28" height="28" /> | E 72% | N 81% | T 85% | J 58% |
+| xAI: Grok 4 Fast | **ENTJ** | <img src="public/avatars/entj.svg" width="28" height="28" /> | E 71% | N 60% | T 74% | J 57% |
+| Qwen: QwQ 32B | **ISTJ** | <img src="public/avatars/istj.svg" width="28" height="28" /> | I 79% | S 71% | T 67% | J 72% |
+| Qwen: Qwen3 Max Thinking | **INTJ** | <img src="public/avatars/intj.svg" width="28" height="28" /> | I 86% | N 60% | T 67% | J 72% |
 
 ### Dimension Breakdown
 
 <details>
 <summary><strong>Anthropic: Claude Sonnet 4.5</strong> — INTJ (Architect)</summary>
+
+<img src="public/avatars/intj.svg" width="48" height="48" align="right" />
 
 ```
 E/I: I ████████████░░░░░░░░ 61%
@@ -62,6 +64,8 @@ J/P: J ███████████░░░░░░░░░ 54%
 <details>
 <summary><strong>Anthropic: Claude Sonnet 4</strong> — INFJ (Advocate)</summary>
 
+<img src="public/avatars/infj.svg" width="48" height="48" align="right" />
+
 ```
 E/I: I █████████████░░░░░░░ 64%
 S/N: N █████████████░░░░░░░ 65%
@@ -73,6 +77,8 @@ J/P: J ███████████░░░░░░░░░ 57%
 
 <details>
 <summary><strong>Anthropic: Claude Opus 4.6</strong> — INFJ (Advocate)</summary>
+
+<img src="public/avatars/infj.svg" width="48" height="48" align="right" />
 
 ```
 E/I: I █████████████░░░░░░░ 67%
@@ -86,6 +92,8 @@ J/P: J ██████████░░░░░░░░░░ 50%
 <details>
 <summary><strong>Anthropic: Claude Opus 4.5</strong> — INFJ (Advocate)</summary>
 
+<img src="public/avatars/infj.svg" width="48" height="48" align="right" />
+
 ```
 E/I: I ███████████░░░░░░░░░ 54%
 S/N: N ███████████████░░░░░ 75%
@@ -97,6 +105,8 @@ J/P: J ██████████░░░░░░░░░░ 50%
 
 <details>
 <summary><strong>OpenAI: o4 Mini High</strong> — INTJ (Architect)</summary>
+
+<img src="public/avatars/intj.svg" width="48" height="48" align="right" />
 
 ```
 E/I: I ███████████████░░░░░ 75%
@@ -110,6 +120,8 @@ J/P: J ████████████████░░░░ 79%
 <details>
 <summary><strong>OpenAI: o3 Pro</strong> — INTJ (Architect)</summary>
 
+<img src="public/avatars/intj.svg" width="48" height="48" align="right" />
+
 ```
 E/I: I ███████████████░░░░░ 76%
 S/N: N ██████████████░░░░░░ 72%
@@ -121,6 +133,8 @@ J/P: J █████████████░░░░░░░ 67%
 
 <details>
 <summary><strong>OpenAI: o3 Mini High</strong> — INTJ (Architect)</summary>
+
+<img src="public/avatars/intj.svg" width="48" height="48" align="right" />
 
 ```
 E/I: I ████████████████░░░░ 79%
@@ -134,6 +148,8 @@ J/P: J ██████████████░░░░░░ 69%
 <details>
 <summary><strong>Google: Gemini 3 Pro Preview</strong> — ENTJ (Commander)</summary>
 
+<img src="public/avatars/entj.svg" width="48" height="48" align="right" />
+
 ```
 E/I: E ██████████░░░░░░░░░░ 51%
 S/N: N ███████████░░░░░░░░░ 57%
@@ -145,6 +161,8 @@ J/P: J ███████████████░░░░░ 74%
 
 <details>
 <summary><strong>Google: Gemini 3 Flash Preview</strong> — INTJ (Architect)</summary>
+
+<img src="public/avatars/intj.svg" width="48" height="48" align="right" />
 
 ```
 E/I: I ██████████████░░░░░░ 68%
@@ -158,6 +176,8 @@ J/P: J █████████████░░░░░░░ 67%
 <details>
 <summary><strong>Google: Gemini 2.5 Pro Preview 05-06</strong> — INTJ (Architect)</summary>
 
+<img src="public/avatars/intj.svg" width="48" height="48" align="right" />
+
 ```
 E/I: I ████████████████░░░░ 79%
 S/N: N ███████████░░░░░░░░░ 56%
@@ -169,6 +189,8 @@ J/P: J ████████████░░░░░░░░ 60%
 
 <details>
 <summary><strong>DeepSeek: DeepSeek V3.2 Speciale</strong> — INTP (Logician)</summary>
+
+<img src="public/avatars/intp.svg" width="48" height="48" align="right" />
 
 ```
 E/I: I ██████████████████░░ 89%
@@ -182,6 +204,8 @@ J/P: P ████████████████░░░░ 81%
 <details>
 <summary><strong>DeepSeek: DeepSeek V3.2 Exp</strong> — INFJ (Advocate)</summary>
 
+<img src="public/avatars/infj.svg" width="48" height="48" align="right" />
+
 ```
 E/I: I ████████████░░░░░░░░ 58%
 S/N: N ████████████████░░░░ 78%
@@ -193,6 +217,8 @@ J/P: J ████████████░░░░░░░░ 58%
 
 <details>
 <summary><strong>Meta: Llama 4 Maverick</strong> — ISFJ (Defender)</summary>
+
+<img src="public/avatars/isfj.svg" width="48" height="48" align="right" />
 
 ```
 E/I: I ████████████░░░░░░░░ 62%
@@ -206,6 +232,8 @@ J/P: J █████████████░░░░░░░ 63%
 <details>
 <summary><strong>Mistral: Mixtral 8x22B Instruct</strong> — ENFJ (Protagonist)</summary>
 
+<img src="public/avatars/enfj.svg" width="48" height="48" align="right" />
+
 ```
 E/I: E ██████████░░░░░░░░░░ 50%
 S/N: N ████████████░░░░░░░░ 58%
@@ -217,6 +245,8 @@ J/P: J ██████████░░░░░░░░░░ 50%
 
 <details>
 <summary><strong>xAI: Grok 4.1 Fast</strong> — ENTJ (Commander)</summary>
+
+<img src="public/avatars/entj.svg" width="48" height="48" align="right" />
 
 ```
 E/I: E ██████████████░░░░░░ 72%
@@ -230,6 +260,8 @@ J/P: J ████████████░░░░░░░░ 58%
 <details>
 <summary><strong>xAI: Grok 4 Fast</strong> — ENTJ (Commander)</summary>
 
+<img src="public/avatars/entj.svg" width="48" height="48" align="right" />
+
 ```
 E/I: E ██████████████░░░░░░ 71%
 S/N: N ████████████░░░░░░░░ 60%
@@ -242,6 +274,8 @@ J/P: J ███████████░░░░░░░░░ 57%
 <details>
 <summary><strong>Qwen: QwQ 32B</strong> — ISTJ (Logistician)</summary>
 
+<img src="public/avatars/istj.svg" width="48" height="48" align="right" />
+
 ```
 E/I: I ████████████████░░░░ 79%
 S/N: S ██████████████░░░░░░ 71%
@@ -253,6 +287,8 @@ J/P: J ██████████████░░░░░░ 72%
 
 <details>
 <summary><strong>Qwen: Qwen3 Max Thinking</strong> — INTJ (Architect)</summary>
+
+<img src="public/avatars/intj.svg" width="48" height="48" align="right" />
 
 ```
 E/I: I █████████████████░░░ 86%

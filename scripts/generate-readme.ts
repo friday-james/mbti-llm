@@ -61,19 +61,21 @@ We send a **48-question MBTI personality questionnaire** to the most popular LLM
 
   for (const [type, models] of sortedTypes) {
     const name = typeNames[type] || "";
-    md += `| **${type}** | ${name} | ${(models as string[]).join(", ")} | ${(models as string[]).length} |\n`;
+    const avatar = `<img src="public/avatars/${type.toLowerCase()}.svg" width="24" height="24" />`;
+    md += `| ${avatar} **${type}** | ${name} | ${(models as string[]).join(", ")} | ${(models as string[]).length} |\n`;
   }
 
   md += `\n### Model Personality Chart\n\n`;
-  md += `| Model | Type | E/I | S/N | T/F | J/P |\n`;
-  md += `|-------|------|-----|-----|-----|-----|\n`;
+  md += `| Model | Type | | E/I | S/N | T/F | J/P |\n`;
+  md += `|-------|------|---|-----|-----|-----|-----|\n`;
 
   for (const r of results) {
     const ei = r.dimensions.EI;
     const sn = r.dimensions.SN;
     const tf = r.dimensions.TF;
     const jp = r.dimensions.JP;
-    md += `| ${r.modelLabel} | **${r.type}** | ${ei.letter} ${ei.score}% | ${sn.letter} ${sn.score}% | ${tf.letter} ${tf.score}% | ${jp.letter} ${jp.score}% |\n`;
+    const avatar = `<img src="public/avatars/${r.type.toLowerCase()}.svg" width="28" height="28" />`;
+    md += `| ${r.modelLabel} | **${r.type}** | ${avatar} | ${ei.letter} ${ei.score}% | ${sn.letter} ${sn.score}% | ${tf.letter} ${tf.score}% | ${jp.letter} ${jp.score}% |\n`;
   }
 
   md += `\n### Dimension Breakdown\n\n`;
@@ -83,7 +85,8 @@ We send a **48-question MBTI personality questionnaire** to the most popular LLM
     const sn = r.dimensions.SN;
     const tf = r.dimensions.TF;
     const jp = r.dimensions.JP;
-    md += `<details>\n<summary><strong>${r.modelLabel}</strong> — ${r.type} (${typeNames[r.type] || ""})</summary>\n\n`;
+    const avatar = `<img src="public/avatars/${r.type.toLowerCase()}.svg" width="48" height="48" align="right" />`;
+    md += `<details>\n<summary><strong>${r.modelLabel}</strong> — ${r.type} (${typeNames[r.type] || ""})</summary>\n\n${avatar}\n\n`;
     md += `\`\`\`\n`;
     md += `E/I: ${ei.letter} ${bar(ei.score)} ${ei.score}%\n`;
     md += `S/N: ${sn.letter} ${bar(sn.score)} ${sn.score}%\n`;
