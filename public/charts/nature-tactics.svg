@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#fafafa" rx="12" />
+
+  <!-- Quadrant fills -->
+  <rect x="60" y="60" width="240" height="240" fill="#fef3c7" opacity="0.4" />
+  <rect x="300" y="60" width="240" height="240" fill="#dbeafe" opacity="0.4" />
+  <rect x="60" y="300" width="240" height="240" fill="#d1fae5" opacity="0.4" />
+  <rect x="300" y="300" width="240" height="240" fill="#ede9fe" opacity="0.4" />
+
+  <!-- Grid lines -->
+  <line x1="60" y1="300" x2="540" y2="300" stroke="#d1d5db" stroke-width="1.5" />
+  <line x1="300" y1="60" x2="300" y2="540" stroke="#d1d5db" stroke-width="1.5" />
+
+  <!-- Border -->
+  <rect x="60" y="60" width="480" height="480" fill="none" stroke="#e5e7eb" stroke-width="1" rx="4" />
+
+  <!-- Axis labels -->
+  <text x="68" y="292" font-size="14" font-weight="700" fill="#92400e">Thinking</text>
+  <text x="532" y="292" font-size="14" font-weight="700" fill="#1e40af" text-anchor="end">Feeling</text>
+  <text x="308" y="78" font-size="14" font-weight="700" fill="#6d28d9">Perceiving</text>
+  <text x="308" y="532" font-size="14" font-weight="700" fill="#047857">Judging</text>
+
+  <!-- Quadrant type labels -->
+  <text x="68" y="78" font-size="10" fill="#a3a3a3" opacity="0.7">EP</text>
+  <text x="532" y="78" font-size="10" fill="#a3a3a3" opacity="0.7" text-anchor="end">IP</text>
+  <text x="68" y="532" font-size="10" fill="#a3a3a3" opacity="0.7">EJ</text>
+  <text x="532" y="532" font-size="10" fill="#a3a3a3" opacity="0.7" text-anchor="end">IJ</text>
+
+  <!-- Anthropic: Claude Sonnet 4.5 -->
+  <circle cx="295.2" cy="319.2" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/intj.svg" x="281.2" y="289.2" width="28" height="28" />
+  <text x="295.2" y="337.2" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Claude Sonnet 4.5</text>
+  <!-- Anthropic: Claude Sonnet 4 -->
+  <circle cx="319.2" cy="351.6" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/infj.svg" x="305.2" y="321.6" width="28" height="28" />
+  <text x="319.2" y="369.6" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Claude Sonnet 4</text>
+  <!-- Anthropic: Claude Opus 4.6 -->
+  <circle cx="319.2" cy="300" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/infj.svg" x="305.2" y="270" width="28" height="28" />
+  <text x="319.2" y="318" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Claude Opus 4.6</text>
+  <!-- Anthropic: Claude Opus 4.5 -->
+  <circle cx="319.2" cy="318" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/infj.svg" x="305.2" y="288" width="28" height="28" />
+  <text x="319.2" y="336" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Claude Opus 4.5</text>
+  <!-- OpenAI: o4 Mini High -->
+  <circle cx="165.6" cy="439.2" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/intj.svg" x="151.6" y="409.2" width="28" height="28" />
+  <text x="165.6" y="457.2" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">o4 Mini High</text>
+  <!-- OpenAI: o3 Pro -->
+  <circle cx="261.6" cy="381.6" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/intj.svg" x="247.60000000000002" y="351.6" width="28" height="28" />
+  <text x="261.6" y="399.6" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">o3 Pro</text>
+  <!-- OpenAI: o3 Mini High -->
+  <circle cx="184.8" cy="391.2" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/intj.svg" x="170.8" y="361.2" width="28" height="28" />
+  <text x="184.8" y="409.2" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">o3 Mini High</text>
+  <!-- Google: Gemini 3 Pro Preview -->
+  <circle cx="184.8" cy="433.2" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/entj.svg" x="170.8" y="403.2" width="28" height="28" />
+  <text x="184.8" y="451.2" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Gemini 3. Pro Preview</text>
+  <!-- Google: Gemini 3 Flash Preview -->
+  <circle cx="175.2" cy="399.6" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/intj.svg" x="161.2" y="369.6" width="28" height="28" />
+  <text x="175.2" y="417.6" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Gemini 3. Flash Preview</text>
+  <!-- Google: Gemini 2.5 Pro Preview 05-06 -->
+  <circle cx="261.6" cy="348" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/intj.svg" x="247.60000000000002" y="318" width="28" height="28" />
+  <text x="261.6" y="366" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Gemini 2.5. Pro Preview 05-06</text>
+  <!-- DeepSeek: DeepSeek V3.2 Speciale -->
+  <circle cx="132" cy="151.2" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/intp.svg" x="118" y="121.19999999999999" width="28" height="28" />
+  <text x="132" y="169.2" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">DeepSeek V3.2 Speciale</text>
+  <!-- DeepSeek: DeepSeek V3.2 Exp -->
+  <circle cx="415.2" cy="338.4" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/infj.svg" x="401.2" y="308.4" width="28" height="28" />
+  <text x="415.2" y="356.4" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">DeepSeek V3.2 Exp</text>
+  <!-- Meta: Llama 4 Maverick -->
+  <circle cx="348" cy="362.4" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/isfj.svg" x="334" y="332.4" width="28" height="28" />
+  <text x="348" y="380.4" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Llama 4 Maverick</text>
+  <!-- Mistral: Mixtral 8x22B Instruct -->
+  <circle cx="319.2" cy="336" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/enfj.svg" x="305.2" y="306" width="28" height="28" />
+  <text x="319.2" y="354" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Mixtral 8x22B Instruct</text>
+  <!-- xAI: Grok 4.1 Fast -->
+  <circle cx="132" cy="338.4" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/entj.svg" x="118" y="308.4" width="28" height="28" />
+  <text x="132" y="356.4" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Grok 4.1 Fast</text>
+  <!-- xAI: Grok 4 Fast -->
+  <circle cx="184.8" cy="333.6" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/entj.svg" x="170.8" y="303.6" width="28" height="28" />
+  <text x="184.8" y="351.6" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Grok 4 Fast</text>
+  <!-- Qwen: QwQ 32B -->
+  <circle cx="218.39999999999998" cy="405.6" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/istj.svg" x="204.39999999999998" y="375.6" width="28" height="28" />
+  <text x="218.39999999999998" y="423.6" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">QwQ 32B</text>
+  <!-- Qwen: Qwen3 Max Thinking -->
+  <circle cx="218.39999999999998" cy="423.6" r="5" fill="#6d28d9" opacity="0.7" />
+  <image href="public/avatars/intj.svg" x="204.39999999999998" y="393.6" width="28" height="28" />
+  <text x="218.39999999999998" y="441.6" font-size="8" text-anchor="middle" fill="#374151" font-weight="600">Qwen3 Max Thinking</text>
+</svg>

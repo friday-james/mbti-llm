@@ -8,6 +8,20 @@ We send a **48-question MBTI personality questionnaire** to the most popular LLM
 
 ---
 
+## Quadrant Charts
+
+<p align="center">
+  <img src="public/charts/mind-energy.svg" width="48%" alt="E/I vs S/N quadrant chart" />
+  &nbsp;
+  <img src="public/charts/nature-tactics.svg" width="48%" alt="T/F vs J/P quadrant chart" />
+</p>
+
+<p align="center">
+  <em>Left: Mind &amp; Energy (E/I vs S/N) &mdash; Right: Nature &amp; Tactics (T/F vs J/P)</em>
+</p>
+
+---
+
 ## Results
 
 ### Type Distribution
@@ -314,7 +328,7 @@ J/P: J ██████████████░░░░░░ 72%
 
 ## How It Works
 
-1. **Fetch models** — We query OpenRouter's `/api/v1/models` endpoint to get the current list of available models, then pick the top 25 by popularity.
+1. **Fetch models** — We query OpenRouter’s `/api/v1/models` endpoint to get the current list of available models, then pick the top ones by provider.
 2. **Send questionnaire** — Each model receives the same 48 personality statements and is asked to rate each on a 1-7 Likert scale (Strongly Disagree → Strongly Agree).
 3. **Score mechanically** — Answers are scored without LLM interpretation. Each question has a known polarity:
    - "Positive" statements → agreement leans toward E, S, T, or J
@@ -338,7 +352,7 @@ J/P: J ██████████████░░░░░░ 72%
 For positive-pole questions: `score = (answer - 1) / 6`
 For negative-pole questions: `score = 1 - (answer - 1) / 6`
 
-Each dimension's score is the average of its 12 questions, yielding a 0-100% scale.
+Each dimension’s score is the average of its 12 questions, yielding a 0-100% scale.
 
 ### Parameters
 

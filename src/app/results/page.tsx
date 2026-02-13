@@ -27,6 +27,90 @@ const dimLabels: Record<string, [string, string]> = {
   JP: ["Judging", "Perceiving"],
 };
 
+function toAxis(dim: { letter: string; score: number }, firstLetter: string): number {
+  // Returns -1 to +1: negative = first letter side, positive = second letter side
+  const offset = (dim.score - 50) / 50;
+  return dim.letter === firstLetter ? -offset : offset;
+}
+
+function QuadrantChart({
+  results,
+  xDim,
+  yDim,
+  xLabels,
+  yLabels,
+}: {
+  results: ModelResult[];
+  xDim: "EI" | "SN" | "TF" | "JP";
+  yDim: "EI" | "SN" | "TF" | "JP";
+  xLabels: [string, string]; // [left, right]
+  yLabels: [string, string]; // [bottom, top]
+}) {
+  const size = 500;
+  const pad = 50;
+  const inner = size - pad * 2;
+  const cx = size / 2;
+  const cy = size / 2;
+
+  // Compute positions
+  const points = results.map((r) => {
+    const xVal = toAxis(r.dimensions[xDim], xDim[0]);
+    const yVal = toAxis(r.dimensions[yDim], yDim[0]);
+    const px = cx + xVal * (inner / 2);
+    const py = cy - yVal * (inner / 2); // SVG y is inverted
+    return { r, px, py, xVal, yVal };
+  });
+
+  return (
+    <div className="w-full max-w-lg">
+      <svg viewBox={`0 0 ${size} ${size}`} className="w-full">
+        {/* Background quadrants */}
+        <rect x={pad} y={pad} width={inner / 2} height={inner / 2} fill="#fef3c7" opacity={0.3} />
+        <rect x={cx} y={pad} width={inner / 2} height={inner / 2} fill="#dbeafe" opacity={0.3} />
+        <rect x={pad} y={cy} width={inner / 2} height={inner / 2} fill="#d1fae5" opacity={0.3} />
+        <rect x={cx} y={cy} width={inner / 2} height={inner / 2} fill="#ede9fe" opacity={0.3} />
+
+        {/* Axes */}
+        <line x1={pad} y1={cy} x2={size - pad} y2={cy} stroke="#d1d5db" strokeWidth={1} />
+        <line x1={cx} y1={pad} x2={cx} y2={size - pad} stroke="#d1d5db" strokeWidth={1} />
+
+        {/* Axis labels */}
+        <text x={pad + 4} y={cy - 6} fontSize={13} fontWeight={700} fill="#92400e">{xLabels[0]}</text>
+        <text x={size - pad - 4} y={cy - 6} fontSize={13} fontWeight={700} fill="#1e40af" textAnchor="end">{xLabels[1]}</text>
+        <text x={cx + 6} y={pad + 14} fontSize={13} fontWeight={700} fill="#6d28d9">{yLabels[1]}</text>
+        <text x={cx + 6} y={size - pad - 6} fontSize={13} fontWeight={700} fill="#047857">{yLabels[0]}</text>
+
+        {/* Model dots */}
+        {points.map(({ r, px, py }, i) => (
+          <g key={i}>
+            {/* Avatar image */}
+            <image
+              href={`/avatars/${r.type.toLowerCase()}.svg`}
+              x={px - 16}
+              y={py - 28}
+              width={32}
+              height={32}
+            />
+            {/* Label */}
+            <text
+              x={px}
+              y={py + 14}
+              fontSize={8}
+              textAnchor="middle"
+              fill="#374151"
+              fontWeight={600}
+            >
+              {r.modelLabel.split(":").pop()?.trim().split(" ").slice(0, 2).join(" ")}
+            </text>
+            {/* Dot */}
+            <circle cx={px} cy={py} r={3} fill="#6d28d9" opacity={0.6} />
+          </g>
+        ))}
+      </svg>
+    </div>
+  );
+}
+
 function ModelCard({ result }: { result: ModelResult }) {
   const typeName = typeNames[result.type] || "";
   const letters = result.type.split("");
@@ -235,6 +319,36 @@ function ResultsContent() {
       <p className="mb-8 text-sm text-gray-400">
         {results.length} models tested &middot; {data.timestamp ? new Date(data.timestamp).toLocaleDateString() : ""}
       </p>
+
+      {/* Quadrant scatter charts */}
+      {results.length > 0 && (
+        <div className="mb-12 grid w-full max-w-4xl gap-8 md:grid-cols-2">
+          <div>
+            <h2 className="mb-2 text-center text-sm font-bold uppercase tracking-wider text-gray-500">
+              Mind & Energy
+            </h2>
+            <QuadrantChart
+              results={results}
+              xDim="EI"
+              yDim="SN"
+              xLabels={["Extraversion", "Introversion"]}
+              yLabels={["Sensing", "Intuition"]}
+            />
+          </div>
+          <div>
+            <h2 className="mb-2 text-center text-sm font-bold uppercase tracking-wider text-gray-500">
+              Nature & Tactics
+            </h2>
+            <QuadrantChart
+              results={results}
+              xDim="TF"
+              yDim="JP"
+              xLabels={["Thinking", "Feeling"]}
+              yLabels={["Judging", "Perceiving"]}
+            />
+          </div>
+        </div>
+      )}
 
       {/* Distribution chart */}
       {results.length > 0 && (
