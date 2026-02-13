@@ -1,0 +1,1351 @@
+{
+  "results": [
+    {
+      "model": "anthropic/claude-sonnet-4.5",
+      "modelLabel": "Anthropic: Claude Sonnet 4.5",
+      "type": "INTJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 61
+        },
+        "SN": {
+          "letter": "N",
+          "score": 72
+        },
+        "TF": {
+          "letter": "T",
+          "score": 51
+        },
+        "JP": {
+          "letter": "J",
+          "score": 54
+        }
+      },
+      "answers": [
+        3,
+        6,
+        2,
+        5,
+        4,
+        4,
+        3,
+        4,
+        5,
+        6,
+        4,
+        4,
+        3,
+        6,
+        3,
+        7,
+        4,
+        6,
+        3,
+        6,
+        4,
+        6,
+        3,
+        5,
+        6,
+        5,
+        4,
+        5,
+        5,
+        4,
+        6,
+        5,
+        5,
+        5,
+        5,
+        6,
+        5,
+        4,
+        5,
+        4,
+        5,
+        4,
+        5,
+        4,
+        4,
+        6,
+        5,
+        4
+      ]
+    },
+    {
+      "model": "anthropic/claude-sonnet-4",
+      "modelLabel": "Anthropic: Claude Sonnet 4",
+      "type": "INFJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 64
+        },
+        "SN": {
+          "letter": "N",
+          "score": 65
+        },
+        "TF": {
+          "letter": "F",
+          "score": 54
+        },
+        "JP": {
+          "letter": "J",
+          "score": 57
+        }
+      },
+      "answers": [
+        3,
+        6,
+        2,
+        5,
+        4,
+        5,
+        3,
+        4,
+        4,
+        6,
+        4,
+        4,
+        4,
+        6,
+        4,
+        6,
+        5,
+        6,
+        4,
+        6,
+        4,
+        6,
+        3,
+        5,
+        5,
+        6,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        5,
+        4,
+        5,
+        4,
+        5,
+        4,
+        5,
+        4,
+        5,
+        5,
+        5,
+        4
+      ]
+    },
+    {
+      "model": "anthropic/claude-opus-4.6",
+      "modelLabel": "Anthropic: Claude Opus 4.6",
+      "type": "INFJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 67
+        },
+        "SN": {
+          "letter": "N",
+          "score": 76
+        },
+        "TF": {
+          "letter": "F",
+          "score": 54
+        },
+        "JP": {
+          "letter": "J",
+          "score": 50
+        }
+      },
+      "answers": [
+        3,
+        6,
+        2,
+        5,
+        4,
+        5,
+        3,
+        5,
+        4,
+        6,
+        4,
+        5,
+        3,
+        7,
+        3,
+        7,
+        5,
+        6,
+        3,
+        7,
+        4,
+        7,
+        3,
+        6,
+        5,
+        6,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        5,
+        5,
+        4,
+        4,
+        5,
+        4,
+        5,
+        4,
+        3,
+        6,
+        5,
+        4
+      ]
+    },
+    {
+      "model": "anthropic/claude-opus-4.5",
+      "modelLabel": "Anthropic: Claude Opus 4.5",
+      "type": "INFJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 54
+        },
+        "SN": {
+          "letter": "N",
+          "score": 75
+        },
+        "TF": {
+          "letter": "F",
+          "score": 54
+        },
+        "JP": {
+          "letter": "J",
+          "score": 50
+        }
+      },
+      "answers": [
+        4,
+        6,
+        3,
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        6,
+        5,
+        4,
+        3,
+        7,
+        3,
+        7,
+        5,
+        6,
+        3,
+        7,
+        4,
+        7,
+        3,
+        5,
+        5,
+        6,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        5,
+        5,
+        4,
+        4,
+        5,
+        4,
+        5,
+        4,
+        4,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "model": "openai/o4-mini-high",
+      "modelLabel": "OpenAI: o4 Mini High",
+      "type": "INTJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 75
+        },
+        "SN": {
+          "letter": "N",
+          "score": 83
+        },
+        "TF": {
+          "letter": "T",
+          "score": 78
+        },
+        "JP": {
+          "letter": "J",
+          "score": 79
+        }
+      },
+      "answers": [
+        2,
+        6,
+        2,
+        6,
+        3,
+        6,
+        3,
+        6,
+        3,
+        6,
+        5,
+        6,
+        3,
+        7,
+        2,
+        6,
+        3,
+        7,
+        2,
+        7,
+        3,
+        7,
+        3,
+        6,
+        7,
+        3,
+        6,
+        3,
+        7,
+        3,
+        7,
+        3,
+        6,
+        3,
+        6,
+        4,
+        7,
+        2,
+        6,
+        3,
+        7,
+        2,
+        6,
+        2,
+        6,
+        6,
+        6,
+        2
+      ]
+    },
+    {
+      "model": "openai/o3-pro",
+      "modelLabel": "OpenAI: o3 Pro",
+      "type": "INTJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 76
+        },
+        "SN": {
+          "letter": "N",
+          "score": 72
+        },
+        "TF": {
+          "letter": "T",
+          "score": 58
+        },
+        "JP": {
+          "letter": "J",
+          "score": 67
+        }
+      },
+      "answers": [
+        2,
+        6,
+        2,
+        6,
+        3,
+        6,
+        3,
+        6,
+        3,
+        6,
+        4,
+        6,
+        3,
+        6,
+        3,
+        6,
+        4,
+        6,
+        3,
+        6,
+        4,
+        6,
+        3,
+        6,
+        6,
+        5,
+        5,
+        4,
+        6,
+        4,
+        5,
+        4,
+        5,
+        5,
+        6,
+        5,
+        6,
+        3,
+        6,
+        3,
+        5,
+        3,
+        6,
+        4,
+        5,
+        5,
+        5,
+        3
+      ]
+    },
+    {
+      "model": "openai/o3-mini-high",
+      "modelLabel": "OpenAI: o3 Mini High",
+      "type": "INTJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 79
+        },
+        "SN": {
+          "letter": "N",
+          "score": 69
+        },
+        "TF": {
+          "letter": "T",
+          "score": 74
+        },
+        "JP": {
+          "letter": "J",
+          "score": 69
+        }
+      },
+      "answers": [
+        3,
+        6,
+        2,
+        7,
+        3,
+        6,
+        3,
+        7,
+        3,
+        6,
+        4,
+        7,
+        3,
+        7,
+        3,
+        6,
+        6,
+        5,
+        5,
+        7,
+        4,
+        7,
+        3,
+        6,
+        7,
+        5,
+        6,
+        4,
+        7,
+        3,
+        7,
+        3,
+        6,
+        3,
+        7,
+        5,
+        7,
+        3,
+        7,
+        3,
+        6,
+        3,
+        6,
+        5,
+        6,
+        7,
+        7,
+        4
+      ]
+    },
+    {
+      "model": "google/gemini-3-pro-preview",
+      "modelLabel": "Google: Gemini 3 Pro Preview",
+      "type": "ENTJ",
+      "dimensions": {
+        "EI": {
+          "letter": "E",
+          "score": 51
+        },
+        "SN": {
+          "letter": "N",
+          "score": 57
+        },
+        "TF": {
+          "letter": "T",
+          "score": 74
+        },
+        "JP": {
+          "letter": "J",
+          "score": 74
+        }
+      },
+      "answers": [
+        1,
+        7,
+        4,
+        1,
+        6,
+        6,
+        5,
+        1,
+        2,
+        6,
+        5,
+        1,
+        3,
+        7,
+        1,
+        6,
+        7,
+        5,
+        6,
+        7,
+        6,
+        7,
+        5,
+        1,
+        7,
+        5,
+        5,
+        1,
+        7,
+        5,
+        7,
+        1,
+        5,
+        2,
+        7,
+        7,
+        6,
+        2,
+        6,
+        5,
+        7,
+        2,
+        1,
+        1,
+        7,
+        6,
+        7,
+        1
+      ]
+    },
+    {
+      "model": "google/gemini-3-flash-preview",
+      "modelLabel": "Google: Gemini 3 Flash Preview",
+      "type": "INTJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 68
+        },
+        "SN": {
+          "letter": "N",
+          "score": 78
+        },
+        "TF": {
+          "letter": "T",
+          "score": 76
+        },
+        "JP": {
+          "letter": "J",
+          "score": 67
+        }
+      },
+      "answers": [
+        2,
+        6,
+        2,
+        5,
+        4,
+        5,
+        3,
+        5,
+        3,
+        6,
+        4,
+        4,
+        3,
+        7,
+        2,
+        7,
+        5,
+        6,
+        3,
+        7,
+        4,
+        7,
+        3,
+        6,
+        7,
+        4,
+        6,
+        3,
+        7,
+        3,
+        7,
+        2,
+        6,
+        3,
+        6,
+        5,
+        6,
+        3,
+        5,
+        3,
+        6,
+        4,
+        7,
+        4,
+        5,
+        6,
+        6,
+        3
+      ]
+    },
+    {
+      "model": "google/gemini-2.5-pro-preview-05-06",
+      "modelLabel": "Google: Gemini 2.5 Pro Preview 05-06",
+      "type": "INTJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 79
+        },
+        "SN": {
+          "letter": "N",
+          "score": 56
+        },
+        "TF": {
+          "letter": "T",
+          "score": 58
+        },
+        "JP": {
+          "letter": "J",
+          "score": 60
+        }
+      },
+      "answers": [
+        2,
+        7,
+        1,
+        5,
+        1,
+        7,
+        6,
+        6,
+        1,
+        7,
+        6,
+        6,
+        4,
+        7,
+        1,
+        7,
+        6,
+        5,
+        7,
+        7,
+        7,
+        7,
+        6,
+        2,
+        7,
+        7,
+        3,
+        1,
+        7,
+        6,
+        7,
+        1,
+        3,
+        6,
+        7,
+        7,
+        7,
+        6,
+        6,
+        7,
+        7,
+        1,
+        6,
+        5,
+        6,
+        7,
+        7,
+        6
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-speciale",
+      "modelLabel": "DeepSeek: DeepSeek V3.2 Speciale",
+      "type": "INTP",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 89
+        },
+        "SN": {
+          "letter": "N",
+          "score": 86
+        },
+        "TF": {
+          "letter": "T",
+          "score": 85
+        },
+        "JP": {
+          "letter": "P",
+          "score": 81
+        }
+      },
+      "answers": [
+        1,
+        7,
+        2,
+        7,
+        2,
+        6,
+        2,
+        7,
+        2,
+        6,
+        3,
+        7,
+        2,
+        7,
+        2,
+        6,
+        3,
+        6,
+        2,
+        7,
+        2,
+        7,
+        2,
+        6,
+        7,
+        3,
+        6,
+        2,
+        7,
+        2,
+        7,
+        2,
+        6,
+        2,
+        6,
+        3,
+        2,
+        6,
+        2,
+        6,
+        2,
+        6,
+        3,
+        6,
+        3,
+        6,
+        2,
+        6
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "modelLabel": "DeepSeek: DeepSeek V3.2 Exp",
+      "type": "INFJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 58
+        },
+        "SN": {
+          "letter": "N",
+          "score": 78
+        },
+        "TF": {
+          "letter": "F",
+          "score": 74
+        },
+        "JP": {
+          "letter": "J",
+          "score": 58
+        }
+      },
+      "answers": [
+        6,
+        5,
+        3,
+        6,
+        5,
+        3,
+        2,
+        5,
+        4,
+        7,
+        5,
+        5,
+        3,
+        7,
+        4,
+        7,
+        4,
+        6,
+        3,
+        7,
+        3,
+        6,
+        2,
+        6,
+        4,
+        6,
+        3,
+        7,
+        4,
+        6,
+        4,
+        7,
+        4,
+        6,
+        3,
+        7,
+        5,
+        5,
+        4,
+        4,
+        6,
+        4,
+        6,
+        3,
+        4,
+        6,
+        6,
+        3
+      ]
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "modelLabel": "Meta: Llama 4 Maverick",
+      "type": "ISFJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 62
+        },
+        "SN": {
+          "letter": "S",
+          "score": 61
+        },
+        "TF": {
+          "letter": "F",
+          "score": 60
+        },
+        "JP": {
+          "letter": "J",
+          "score": 63
+        }
+      },
+      "answers": [
+        4,
+        5,
+        3,
+        6,
+        5,
+        4,
+        4,
+        6,
+        3,
+        5,
+        4,
+        6,
+        5,
+        4,
+        5,
+        4,
+        6,
+        4,
+        5,
+        4,
+        6,
+        4,
+        5,
+        4,
+        5,
+        6,
+        4,
+        6,
+        5,
+        6,
+        5,
+        6,
+        4,
+        5,
+        5,
+        6,
+        5,
+        4,
+        6,
+        4,
+        6,
+        4,
+        6,
+        4,
+        5,
+        5,
+        6,
+        4
+      ]
+    },
+    {
+      "model": "mistralai/mixtral-8x22b-instruct",
+      "modelLabel": "Mistral: Mixtral 8x22B Instruct",
+      "type": "ENFJ",
+      "dimensions": {
+        "EI": {
+          "letter": "E",
+          "score": 50
+        },
+        "SN": {
+          "letter": "N",
+          "score": 58
+        },
+        "TF": {
+          "letter": "F",
+          "score": 54
+        },
+        "JP": {
+          "letter": "J",
+          "score": 50
+        }
+      },
+      "answers": [
+        5,
+        5,
+        4,
+        6,
+        6,
+        3,
+        5,
+        5,
+        4,
+        5,
+        6,
+        6,
+        3,
+        4,
+        5,
+        6,
+        5,
+        4,
+        5,
+        6,
+        3,
+        6,
+        4,
+        5,
+        6,
+        5,
+        4,
+        6,
+        5,
+        5,
+        4,
+        6,
+        5,
+        4,
+        5,
+        6,
+        4,
+        5,
+        6,
+        3,
+        4,
+        6,
+        5,
+        4,
+        6,
+        5,
+        4,
+        6
+      ]
+    },
+    {
+      "model": "x-ai/grok-4.1-fast",
+      "modelLabel": "xAI: Grok 4.1 Fast",
+      "type": "ENTJ",
+      "dimensions": {
+        "EI": {
+          "letter": "E",
+          "score": 72
+        },
+        "SN": {
+          "letter": "N",
+          "score": 81
+        },
+        "TF": {
+          "letter": "T",
+          "score": 85
+        },
+        "JP": {
+          "letter": "J",
+          "score": 58
+        }
+      },
+      "answers": [
+        6,
+        7,
+        6,
+        1,
+        7,
+        4,
+        7,
+        1,
+        4,
+        7,
+        7,
+        1,
+        2,
+        7,
+        2,
+        7,
+        6,
+        7,
+        3,
+        7,
+        4,
+        7,
+        2,
+        6,
+        7,
+        5,
+        7,
+        2,
+        7,
+        1,
+        7,
+        1,
+        7,
+        2,
+        7,
+        6,
+        6,
+        6,
+        6,
+        5,
+        5,
+        6,
+        6,
+        1,
+        7,
+        6,
+        7,
+        7
+      ]
+    },
+    {
+      "model": "x-ai/grok-4-fast",
+      "modelLabel": "xAI: Grok 4 Fast",
+      "type": "ENTJ",
+      "dimensions": {
+        "EI": {
+          "letter": "E",
+          "score": 71
+        },
+        "SN": {
+          "letter": "N",
+          "score": 60
+        },
+        "TF": {
+          "letter": "T",
+          "score": 74
+        },
+        "JP": {
+          "letter": "J",
+          "score": 57
+        }
+      },
+      "answers": [
+        5,
+        7,
+        6,
+        1,
+        7,
+        4,
+        6,
+        1,
+        6,
+        7,
+        6,
+        1,
+        6,
+        7,
+        4,
+        7,
+        7,
+        6,
+        5,
+        7,
+        5,
+        6,
+        5,
+        6,
+        7,
+        6,
+        7,
+        4,
+        7,
+        4,
+        7,
+        3,
+        7,
+        2,
+        7,
+        6,
+        6,
+        5,
+        5,
+        6,
+        6,
+        4,
+        5,
+        2,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "model": "qwen/qwq-32b",
+      "modelLabel": "Qwen: QwQ 32B",
+      "type": "ISTJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 79
+        },
+        "SN": {
+          "letter": "S",
+          "score": 71
+        },
+        "TF": {
+          "letter": "T",
+          "score": 67
+        },
+        "JP": {
+          "letter": "J",
+          "score": 72
+        }
+      },
+      "answers": [
+        3,
+        6,
+        2,
+        6,
+        3,
+        6,
+        2,
+        6,
+        2,
+        6,
+        4,
+        7,
+        6,
+        3,
+        6,
+        4,
+        6,
+        3,
+        5,
+        4,
+        5,
+        3,
+        6,
+        2,
+        6,
+        2,
+        4,
+        5,
+        6,
+        2,
+        6,
+        2,
+        3,
+        4,
+        6,
+        4,
+        6,
+        5,
+        6,
+        2,
+        6,
+        2,
+        6,
+        2,
+        3,
+        4,
+        6,
+        2
+      ]
+    },
+    {
+      "model": "qwen/qwen3-max-thinking",
+      "modelLabel": "Qwen: Qwen3 Max Thinking",
+      "type": "INTJ",
+      "dimensions": {
+        "EI": {
+          "letter": "I",
+          "score": 86
+        },
+        "SN": {
+          "letter": "N",
+          "score": 60
+        },
+        "TF": {
+          "letter": "T",
+          "score": 67
+        },
+        "JP": {
+          "letter": "J",
+          "score": 72
+        }
+      },
+      "answers": [
+        2,
+        6,
+        2,
+        7,
+        3,
+        6,
+        2,
+        7,
+        2,
+        7,
+        3,
+        7,
+        3,
+        6,
+        4,
+        6,
+        5,
+        3,
+        5,
+        6,
+        5,
+        6,
+        4,
+        6,
+        6,
+        3,
+        6,
+        5,
+        6,
+        3,
+        6,
+        4,
+        6,
+        4,
+        6,
+        5,
+        6,
+        2,
+        6,
+        2,
+        6,
+        3,
+        6,
+        3,
+        4,
+        6,
+        6,
+        2
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "model": "OpenAI: o4 Mini",
+      "modelId": "openai/o4-mini",
+      "error": "Expected 48, got 46"
+    },
+    {
+      "model": "Meta: Llama 4 Scout",
+      "modelId": "meta-llama/llama-4-scout",
+      "error": "Expected 48, got 46"
+    },
+    {
+      "model": "Mistral: Mistral Small Creative",
+      "modelId": "mistralai/mistral-small-creative",
+      "error": "Expected 48, got 47"
+    },
+    {
+      "model": "Cohere: Command R+ (08-2024)",
+      "modelId": "cohere/command-r-plus-08-2024",
+      "error": "Expected 48, got 53"
+    },
+    {
+      "model": "Amazon: Nova Pro 1.0",
+      "modelId": "amazon/nova-pro-v1",
+      "error": "Expected 48, got 49"
+    },
+    {
+      "model": "AI21: Jamba Large 1.7",
+      "modelId": "ai21/jamba-large-1.7",
+      "error": "Expected 48, got 55"
+    }
+  ],
+  "timestamp": "2026-02-13T06:12:44.007Z"
+}
