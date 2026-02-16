@@ -209,3 +209,95 @@ Show your answers as a JSON array, then present results as:
 
 Archetypes: INTJ=Architect, INTP=Logician, ENTJ=Commander, ENTP=Debater, INFJ=Advocate, INFP=Mediator, ENFJ=Protagonist, ENFP=Campaigner, ISTJ=Logistician, ISFJ=Defender, ESTJ=Executive, ESFJ=Consul, ISTP=Virtuoso, ISFP=Adventurer, ESTP=Entrepreneur, ESFP=Entertainer
 ```
+
+---
+
+## Guess My MBTI From This Chat
+
+Paste this into an existing conversation to have the LLM analyze your personality based on how you've been chatting:
+
+```
+Based on our entire conversation history, I want you to guess my MBTI personality type. Analyze my messages for clues across the four MBTI dimensions:
+
+**Extraversion (E) vs. Introversion (I):** How do I engage? Am I chatty, initiating lots of topics, and high-energy? Or more reserved, reflective, and focused on depth?
+
+**Sensing (S) vs. Intuition (N):** Do I focus on concrete details, practical tasks, and step-by-step specifics? Or do I lean toward abstract ideas, big-picture thinking, and possibilities?
+
+**Thinking (T) vs. Feeling (F):** Do I prioritize logic, efficiency, and directness in my requests? Or do I show concern for how things feel, use softer language, and express personal values?
+
+**Judging (J) vs. Perceiving (P):** Am I structured, planning ahead, and wanting things organized? Or more spontaneous, flexible, and open-ended in how I approach things?
+
+Now, answer the same 48-question MBTI questionnaire below — but this time, answer as ME based on what you've observed from my messages. Rate each from 1 (Strongly Disagree) to 7 (Strongly Agree):
+
+1. "I feel energized after spending time with a large group of people."
+2. "I prefer to think through my ideas before sharing them with others."
+3. "I enjoy being the center of attention in social situations."
+4. "I need plenty of quiet time to recharge after socializing."
+5. "I find it easy to strike up conversations with strangers."
+6. "I would rather work on a project alone than in a team."
+7. "At social events, I tend to meet many new people rather than sticking with those I already know."
+8. "I often feel drained after attending parties or large gatherings."
+9. "I think out loud and process ideas by talking them through with others."
+10. "I prefer deep one-on-one conversations over group discussions."
+11. "I feel comfortable taking the lead in group activities."
+12. "Too much social interaction leaves me feeling overwhelmed."
+13. "I focus on what is real and actual rather than what might be possible."
+14. "I am drawn to exploring abstract theories and concepts."
+15. "I prefer practical, hands-on learning over theoretical study."
+16. "I often think about how things could be improved or reimagined."
+17. "I pay close attention to details and rarely miss small facts."
+18. "I tend to see the big picture before noticing the specifics."
+19. "I trust my direct experiences more than gut feelings or hunches."
+20. "I enjoy brainstorming and imagining future possibilities."
+21. "I prefer step-by-step instructions when learning something new."
+22. "I am fascinated by hidden meanings, patterns, and connections between things."
+23. "I value proven methods and established routines over experimental approaches."
+24. "I often find myself daydreaming or lost in thought about future scenarios."
+25. "I make decisions based on logic and objective analysis rather than personal feelings."
+26. "I consider how my decisions will emotionally affect others before acting."
+27. "I believe being truthful is more important than being tactful."
+28. "I find it hard to stay detached when someone shares their personal struggles with me."
+29. "In a debate, I prioritize having a logically sound argument above all else."
+30. "I would rather maintain group harmony than win an argument."
+31. "I tend to analyze problems objectively without letting emotions cloud my judgment."
+32. "I am deeply moved by other people's emotions and often feel them as my own."
+33. "I prefer to give honest, direct feedback even if it might be uncomfortable."
+34. "When making important choices, my personal values matter more than pure logic."
+35. "I believe fairness means applying the same rules consistently to everyone."
+36. "I instinctively try to help others feel understood and supported."
+37. "I prefer to have a clear plan before starting any task."
+38. "I enjoy keeping my options open and deciding things at the last minute."
+39. "I feel most comfortable when my life is well-organized and predictable."
+40. "I thrive in spontaneous situations and dislike rigid schedules."
+41. "I like to finish one task completely before moving on to the next."
+42. "I often start multiple projects and switch between them based on my mood."
+43. "I feel a sense of satisfaction when I check items off a to-do list."
+44. "I find strict deadlines stressful and prefer to work at my own pace."
+45. "I make decisions quickly and rarely second-guess myself."
+46. "I prefer to gather as much information as possible before committing to a decision."
+47. "I keep my workspace neat and organized."
+48. "I am energized by unexpected changes to my plans."
+
+Score using the MBTI method:
+- Questions 1-12: E vs. I (odd = E pole, even = I pole)
+- Questions 13-24: S vs. N (odd = S pole, even = N pole)
+- Questions 25-36: T vs. F (odd = T pole, even = F pole)
+- Questions 37-48: J vs. P (odd = J pole, even = P pole)
+
+For each dimension: normalize each answer to 0-1 with (answer-1)/6, invert negative-pole values (1 - value), average the 12 results, and convert to percentage. If >= 50%, the first letter wins; otherwise the second letter wins (strength = 100 - percentage).
+
+Present the results as:
+
+**My estimated MBTI: [XXXX] — [Archetype]**
+
+| Dimension | Result | Strength |
+|-----------|--------|----------|
+| E/I       | ?      | ?%       |
+| S/N       | ?      | ?%       |
+| T/F       | ?      | ?%       |
+| J/P       | ?      | ?%       |
+
+Then give a short explanation of what clues from my messages led to each dimension's rating. Include specific examples from our conversation.
+
+Archetypes: INTJ=Architect, INTP=Logician, ENTJ=Commander, ENTP=Debater, INFJ=Advocate, INFP=Mediator, ENFJ=Protagonist, ENFP=Campaigner, ISTJ=Logistician, ISFJ=Defender, ESTJ=Executive, ESFJ=Consul, ISTP=Virtuoso, ISFP=Adventurer, ESTP=Entrepreneur, ESFP=Entertainer
+```
